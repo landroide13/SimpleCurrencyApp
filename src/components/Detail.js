@@ -51,7 +51,7 @@ export class Detail extends Component {
       return <div>{ error }</div>
     }
 
-    return  <Table currency={currency} /> 
+    return <Table currency={currency} /> 
   
   }
 

@@ -8,12 +8,13 @@ const { currency } = props;
 
   return (
     <React.Fragment>
-      <table>
+      <table className="highlight">
         <thead>
           <tr>
             <th>Symbol</th>
             <th>Name</th>
             <th>Price</th>
+            <th></th>
             <th>Rate(%)</th>
             <th>Market Cap.</th>
             <th>Rank</th>
@@ -26,6 +27,14 @@ const { currency } = props;
             <td>{ currency.symbol }</td>
             <td>{ currency.name }</td>
             <td>{ currency.price }</td>
+            {
+              currency.percentChange24h > 0 &&
+              <i class="small material-icons top">arrow_upward</i>
+            }
+            {
+              currency.percentChange24h < 0 &&
+              <i class="small material-icons top">arrow_downward</i>
+            } 
             <td>{ currency.percentChange24h }</td>
             <td>{ currency.marketCap }</td>
             <td>{ currency.rank }</td>

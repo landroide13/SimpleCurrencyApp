@@ -82,7 +82,7 @@ class Search extends Component {
             <input id="curr" type="text" className="validate" onChange={this.handleChange} value={search}  />
             <label for="curr">Currency</label>
           </div>
-          <div className="col s6">
+          <div className="col s6 offset-s2">
             <h6 className="center">Currencies</h6>
             { this.renderSearchRes() }
           </div>
