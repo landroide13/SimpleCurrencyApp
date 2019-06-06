@@ -1,0 +1,41 @@
+:root{
+  --green: #0FC13A;
+  --grey: #e3e3e3;
+}
+
+body {
+  background: var(--grey);
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  color: var(--green);
+}
+
+
+ul li {
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
