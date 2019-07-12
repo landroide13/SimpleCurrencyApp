@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App container">
-        <h1>React <span className="title">CoinApp</span></h1>
+        <h1>React <span className="title">KryptoApp</span></h1>
         <hr />
         <Search />
         <hr />
