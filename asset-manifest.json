@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SimpleCurrencyApp/static/css/main.07dbf3cf.chunk.css",
+    "main.js": "/SimpleCurrencyApp/static/js/main.300ef8a6.chunk.js",
+    "main.js.map": "/SimpleCurrencyApp/static/js/main.300ef8a6.chunk.js.map",
+    "runtime~main.js": "/SimpleCurrencyApp/static/js/runtime~main.56c6eb52.js",
+    "runtime~main.js.map": "/SimpleCurrencyApp/static/js/runtime~main.56c6eb52.js.map",
+    "static/js/2.44039830.chunk.js": "/SimpleCurrencyApp/static/js/2.44039830.chunk.js",
+    "static/js/2.44039830.chunk.js.map": "/SimpleCurrencyApp/static/js/2.44039830.chunk.js.map",
+    "index.html": "/SimpleCurrencyApp/index.html",
+    "precache-manifest.9f34bf40d748216221475aac1f1e3c18.js": "/SimpleCurrencyApp/precache-manifest.9f34bf40d748216221475aac1f1e3c18.js",
+    "service-worker.js": "/SimpleCurrencyApp/service-worker.js",
+    "static/css/main.07dbf3cf.chunk.css.map": "/SimpleCurrencyApp/static/css/main.07dbf3cf.chunk.css.map"
+  }
+}
